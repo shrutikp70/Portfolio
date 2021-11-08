@@ -59,7 +59,7 @@ img{
     color: black;
     font-size: 20px;
 }
-.box-4{
+.box-4,.box-5,.box-6,.box-7{
    
     width: 60%;
     padding-top: 2%;
@@ -67,7 +67,76 @@ img{
     display: inline-grid;
     padding-left: 1.3%;
     font-size: 20px;
+   
 }
-
-
-
+.box-8{
+    margin-left: 30%;
+    margin-top: 2%;
+}
+.contact {
+    margin-top: 3rem;
+    margin-right:31%;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    margin-bottom: 2;
+  }
+  
+  .contact-form-container {
+    max-width: 40.75rem;
+    margin: 0 auto;
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px;
+  }
+  .contact-form-container label {
+    line-height: 2.7em;
+    font-weight:bold;
+    color: skyblue;
+  }
+  
+  .contact-form-container textarea {
+    min-height: 6.25rem;
+    font-size: 14px;
+  }
+  
+  .contact-form-container .input-field {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px outset skyblue;
+    font-size: 0.875rem;
+    outline: none;
+  }
+  .input-field::placeholder {
+    padding: 0.5rem;
+    color: skyblue;
+  }
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all;
+  }
+  .submit-btn:hover {
+    background-color: skyblue;
+    border: 2px solid skyblue;
+    cursor: pointer;
+  }
+  footer {
+    
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+  }
+  span .contacts{
+      margin-left: 10%
+  }
