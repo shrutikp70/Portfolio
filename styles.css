@@ -2,6 +2,7 @@
   @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
   *{
     margin: 0;
+     font-family: 'Open Sans', sans-serif; 
   
 }
 
@@ -9,6 +10,10 @@
     width: 350px;
     height: 350px;
     border-radius: 350px;
+}
+.first-heading{
+  font-weight: 900;
+  font-family: 'Open Sans', sans-serif;
 }
 .logo_pic{
     width:70px;
@@ -33,7 +38,10 @@
         display: inline-grid;
         height: 600px;
       
-        
+        }
+        .about p{
+          
+  font-family: "Roboto Slab";
         }
         .box-3{
             width: 60%;
@@ -85,6 +93,13 @@ color: black;
 font-size: 1.3rem;
 font-weight: 400;
 }
+.resume-btn{
+  height: 40px;
+  font-size: 1.5rem;
+  border: 2px solid black;
+  width: 100px;
+  font-family: sans-serif;
+}
 .navbar-nav {
     margin-left: 70%;
 }
@@ -129,6 +144,39 @@ font-weight: 400;
       no-repeat center / contain;
     border-radius: 8px;
   }
+  .left_1 {
+    width: 80%;
+    height: 600px;
+    
+    background: url("Images/codeEditor.png")
+    no-repeat center / contain;
+    border-radius: 8px;
+  }
+  .left_2 {
+    width: 80%;
+    height: 600px;
+    background: url("Images/Zomato.png")
+    no-repeat center / contain;
+    
+    border-radius: 8px;
+  }
+  .left_3 {
+    width: 80%;
+    height: 600px;
+    background: url("Images/codeEditor.png")
+    no-repeat center / contain;
+   
+      
+    border-radius: 8px;
+  }
+  .left_4 {
+    width: 80%;
+    height: 600px;
+    background: url("Images/tech-ahea.png")
+    no-repeat center / contain;
+
+    border-radius: 8px;
+  }
   .right {
     width: 50%;
     min-height: 400px;
@@ -142,24 +190,26 @@ font-weight: 400;
     margin-left: -150px;
   }
   .right h1 {
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: lighter;
   }
   .right p {
     margin: 20px 0;
-    font-weight: 500;
-    line-height: 25px;
+    font-weight: 100;
+    
   }
   .right a {
     text-decoration: none;
-    text-transform: uppercase;
-    background-color: white;
     color: black;
-    padding: 20px 30px;
     display: inline-block;
     letter-spacing: 2px;
   }
+  .github-btn .fa {
+  font-size: 2rem;
   
+  }
+
+ 
   @media only screen and (max-width: 768px) {
     .project_container {
       flex-direction: column;
